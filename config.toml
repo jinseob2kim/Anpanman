@@ -1,0 +1,322 @@
+# Site settings
+baseurl = "http://studysupporters.co.kr//"
+languageCode = "en-us"
+title = "STS"
+theme = "hugo-agency-theme"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "STudySupporters (STS)"
+  description = "연구지원단(STudySupporters)은 연구 맞춤형 통계 애플리케이션을 제공합니다."
+  email = "jinseob2kim@gmail.com"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    brand = "STS"
+    # Optional logo as brand stored in img/
+    #logo = "logo.svg"
+    services = "Services"
+    portfolio = "Portfolio"
+    about = "About"
+    team = "Team"
+    contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    [[menu.postpend]]
+      url = "http://studysupporters.co.kr/shiny/"
+      name = "Shiny"
+      weight = 10
+
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "Welcome To STudySupporters"
+    subtitle = "맞춤형 의학연구 애플리케이션을 제공합니다."
+    buttonText = "Tell STS more"
+
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Services"
+    subtitle = "연구지원단은 맞춤형 의학연구 지원을 통해 의학연구 활성화에 기여하겠습니다."
+
+
+    [[params.services.row]]
+
+    [[params.services.row.list]]
+      icon = "fa-shopping-cart"
+      title = "Applications"
+      description = "연구 맞춤형 통계 애플리케이션을 제공합니다. 1~2회의 클릭 또는 터치만으로 내 연구에 꼭 맞는 통계분석을 수행하고 논문/보고서용 테이블과 그림을 바로 다운로드받을 수 있습니다."
+      url = "http://studysupporters.co.kr/shiny/"
+
+    [[params.services.row.list]]
+      icon = "fa-laptop"
+      title = "Consulting"
+      description = "심평원, 보험공단 빅데이터 등 보건의료 데이터 분석에 대한 컨설팅을 제공합니다. 지금까지 의사를 포함한 보건의료 연구자들에게 200회 이상의 통계컨설팅을 제공하였습니다."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-lock"
+      title = "Education"
+      description = "연구 맞춤형 통계 교육을 제공합니다."
+      url = "https://jinseob2kim.github.io/"
+
+  # Portfolio section
+  [params.portfolio]
+    enable = true
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Portfolio"
+    subtitle = "그동안 진행했던 지원업무입니다."
+
+    [params.portfolio.modal]
+      client = "Client"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close project"
+
+
+    # About section
+  [params.about]
+    enable = true
+    title = "About"
+    subtitle = "  연구지원단의 발자취입니다."
+    endpoint = "Be part<br>of our<br>story!"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[params.about.events]]
+      img = "1.jpg"
+      date = "May 2018"
+      title = "창업선도대학 (예비)창업팀으로 선정"
+      description = "서울대학교 보건대학원 유전체역학교실 소속으로 2018년 중소벤처기업부 주관 창업선도대학 (예비)창업팀으로 선정되었습니다.(블록체인 기반 유전체-건강 빅데이터 구축 및 정밀 의학 솔루션)."
+
+    [[params.about.events]]
+      img = "2.jpg"
+      date = "August 2018"
+      title = "회사 설립"
+      description = "회사를 설립하였습니다."
+
+
+  # Team section
+  [params.team]
+    enable = true
+    # Possibility to center items
+    #center = true
+    title = "Our amazing team"
+    subtitle = "연구지원단은 의학연구 지원 전문가들로 이루어져 있습니다."
+    description = "연구지원단은 보건의료 연구를 분업/전문화시켜 연구지원 전문가라는 새로운 직업을 창출하고 이들을 육성/교육할 수 있는 시스템을 구축할 것입니다." 
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.team.members]]
+      img = "jinseob2kim.jpeg"
+      name = "Jinseob Kim"
+      position = "Leader Developer"
+      reportsTo = "CEO"
+      livesIn = "[Seoul, Korea](https://www.google.co.kr/maps/place/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C/@37.5712302,126.9917377,14z/data=!4m5!3m4!1s0x357ca28b61c565cd:0x858aedb4e4ea83eb!8m2!3d37.566535!4d126.9779692?hl=ko)"
+      scope = [
+        "Software Engineer at [Samsung Electronics](https://www.samsung.com/sec/)",
+        "M.P.H & Ph.D Candidate at [SNU G-EPI Lab.](http://snugepi.snu.ac.kr/)",
+        "M.D(preventive medicine specialist) at [SKKU](http://www.skkumed.ac.kr/)"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """ 의사로서 다양한 건강 데이터를 다뤄본 경험을 바탕으로, 의학연구 활성화를 위한 생태계를 만들고 싶습니다.
+
+  성균관의대를 졸업하고 서울대학교 보건대학원 유전체역학 연구실에서 박사과정을 수료한 예방의학 전문의로, 삼성전자 무선사업부 헬스서비스그룹에서 2년간 책임연구원 으로 근무하며 삼성헬스/기어시리즈의 건강데이터를 분석하였습니다. 이를 통해 얻은 유전체, 임상의학, 모바일/웨어러블 데이터 모두에 대한 풍부한 분석경험을 바탕으로 의사 등 연구자들에게 200회 이상의 통계컨설팅을 제공하였습니다.
+
+  보건대학원 보건정책연구실을 도와 건강보험공단 표본코호트 데이터 분석을 도와드렸고(16-17년), 국립정신건강센터의 연구를 도와 심평원 빅데이터를 이용한 우울증 연구를 수행하였습니다(17-18년).
+
+  2018년 중소벤처기업부 주관 창업선도대학 (예비)창업팀으로 선정되었습니다.(블록체인 기반 유전체-건강 빅데이터 구축 및 정밀 의학 솔루션)."""
+      social = [
+        ["fa-github", "https://github.com/jinseob2kim"],
+        ["fa-facebook", "https://www.facebook.com/secondmath"],
+        ["fa-linkedin", "https://www.linkedin.com/in/jinseob-kim-%EA%B9%80%EC%A7%84%EC%84%AD-456550a5/"]
+      ]
+
+    [[params.team.members]]
+      img = ""
+      name = "P2"
+      position = "Lead Marketer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = ""
+      name = "P3"
+      position = "Lead Developer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+  # Client section
+    [params.clients_list]
+      enable = true
+      # Possibility to center items
+      #center = true
+      # Optional client title specifying the involvement
+      #title = "Used and trusted by"
+
+      # All the clients' logos are stored under 'static/img/logos'.
+      # Replace them with your clients's logos.
+      # Suggestion: .svg in the size of 280px*80px looks good
+      [[params.clients]]
+        logo = "venture.jpg"
+        link = "https://www.k-startup.go.kr/homepage/businessManage/businessManageFunction.do?sid=111&itemSeq=1060"
+
+      [[params.clients]]
+        logo = "snugsph.jpg"
+        link = "http://health.snu.ac.kr/"
+
+      [[params.clients]]
+        logo = ""
+        link = "#"
+
+      [[params.clients]]
+        logo = ""
+        link = "#"
+
+  # Contact section
+  [params.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = ""
+    buttonText = "Send message"
+    # netlify = true
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+    # postURL = "https://example.com/mailout/"
+
+    email = "jinseob2kim@gmail.com"
+
+    # Success and error message overwrite for async contact form
+    #thanks = "Thank you for awesomely contacting us."
+    #error = "Message could not be send. Please contact us at mail@example.com instead."
+
+    [params.contact.captcha]
+      # sitekey = ""
+
+    # 'warning' defines error messages for invalid inputs
+    [params.contact.form.name]
+      text = "Your Name *"
+      warning = "Please enter your name."
+
+    [params.contact.form.email]
+      text = "Your Email *"
+      warning = "Please enter your email address."
+
+    [params.contact.form.phone]
+      text = "Your Phone *"
+      warning = "Please enter your phone number."
+
+    [params.contact.form.message]
+      text = "Your Message *"
+      warning = "Please enter a message."
+
+      # Add optional form fields to identify contact forms
+      #[[params.contact.form.hidden]]
+      #  name = "someID"
+      #  value = "example.com"
+      #
+      #[[params.contact.form.hidden]]
+      # Special values for name such as "page" and "site" will be autofilled
+      #  name = "page"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "Copyright &copy;2018 연구지원단"
+
+    [[params.footer.social]]
+      icon = "fa-github"
+      link = "https://github.com/jinseob2kim"
+      title = "Github"
+
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      link = "https://www.facebook.com/secondmath"
+      title = "Facebook"
+
+    [[params.footer.social]]
+      icon = "fa-linkedin"
+      link = "https://www.linkedin.com/in/jinseob-kim-%EA%B9%80%EC%A7%84%EC%84%AD-456550a5/"
+      title = "LinkedIn"
+
+    [[params.footer.quicklinks]]
+      text = "Privacy Policy"
+      link = "#"
+
+    [[params.footer.quicklinks]]
+      text = "Terms of Use"
+      link = "#"

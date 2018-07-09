@@ -238,7 +238,7 @@ googleAnalytics = ""
     title = "Contact us"
     subtitle  = ""
     buttonText = "Send message"
-    # netlify = true
+    #netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -265,7 +265,7 @@ googleAnalytics = ""
     #error = "Message could not be send. Please contact us at mail@example.com instead."
 
     [params.contact.captcha]
-      # sitekey = ""
+      #sitekey = ""
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]

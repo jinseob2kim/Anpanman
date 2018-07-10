@@ -1,11 +1,12 @@
 # Site settings
-baseurl = "http://studysupporters.co.kr//"
+baseurl = "http://studysupporters.co.kr/"
 languageCode = "en-us"
-title = "STS"
+title = "StudySupporters"
 theme = "hugo-agency-theme"
 
+
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-122112532-1"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
@@ -18,7 +19,7 @@ googleAnalytics = ""
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "STudySupporters (STS)"
-  description = "연구지원단(STudySupporters)은 연구 맞춤형 통계 애플리케이션을 제공합니다."
+  description = "연구지원단(STudySupporters)은 맞춤형 의학연구 앱을 제공합니다."
   email = "jinseob2kim@gmail.com"
 
   # Link custom assets relative to /static
@@ -46,7 +47,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "STS"
+    brand = "연구지원단"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"
@@ -76,8 +77,8 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To STudySupporters"
-    subtitle = "맞춤형 의학연구 애플리케이션을 제공합니다."
+    title = "Welcome to STudySupporters (STS)"
+    subtitle = "맞춤형 의학연구 앱을 제공합니다."
     buttonText = "Tell STS more"
 
 
@@ -105,7 +106,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-lock"
       title = "Education"
-      description = "연구 맞춤형 통계 교육을 제공합니다."
+      description = "의학통계 교육을 제공합니다."
       url = "https://jinseob2kim.github.io/"
 
   # Portfolio section
@@ -163,7 +164,7 @@ googleAnalytics = ""
     [[params.team.members]]
       img = "jinseob2kim.jpeg"
       name = "Jinseob Kim"
-      position = "Leader Developer"
+      position = "Lead Developer"
       reportsTo = "CEO"
       livesIn = "[Seoul, Korea](https://www.google.co.kr/maps/place/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C/@37.5712302,126.9917377,14z/data=!4m5!3m4!1s0x357ca28b61c565cd:0x858aedb4e4ea83eb!8m2!3d37.566535!4d126.9779692?hl=ko)"
       scope = [
@@ -172,38 +173,32 @@ googleAnalytics = ""
         "M.D(preventive medicine specialist) at [SKKU](http://www.skkumed.ac.kr/)"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """ 의사로서 다양한 건강 데이터를 다뤄본 경험을 바탕으로, 의학연구 활성화를 위한 생태계를 만들고 싶습니다.
-
-  성균관의대를 졸업하고 서울대학교 보건대학원 유전체역학 연구실에서 박사과정을 수료한 예방의학 전문의로, 삼성전자 무선사업부 헬스서비스그룹에서 2년간 책임연구원 으로 근무하며 삼성헬스/기어시리즈의 건강데이터를 분석하였습니다. 이를 통해 얻은 유전체, 임상의학, 모바일/웨어러블 데이터 모두에 대한 풍부한 분석경험을 바탕으로 의사 등 연구자들에게 200회 이상의 통계컨설팅을 제공하였습니다.
-
-  보건대학원 보건정책연구실을 도와 건강보험공단 표본코호트 데이터 분석을 도와드렸고(16-17년), 국립정신건강센터의 연구를 도와 심평원 빅데이터를 이용한 우울증 연구를 수행하였습니다(17-18년).
-
-  2018년 중소벤처기업부 주관 창업선도대학 (예비)창업팀으로 선정되었습니다.(블록체인 기반 유전체-건강 빅데이터 구축 및 정밀 의학 솔루션)."""
+      bio = "의사로서 다양한 건강 데이터를 다뤄본 경험을 바탕으로, 의학연구 활성화를 위한 생태계를 만들고 싶습니다."
       social = [
         ["fa-github", "https://github.com/jinseob2kim"],
         ["fa-facebook", "https://www.facebook.com/secondmath"],
         ["fa-linkedin", "https://www.linkedin.com/in/jinseob-kim-%EA%B9%80%EC%A7%84%EC%84%AD-456550a5/"]
       ]
 
-    [[params.team.members]]
-      img = ""
-      name = "P2"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+    #[[params.team.members]]
+    #  img = ""
+    #  name = "P2"
+    #  position = "Lead Marketer"
+    #  social = [
+    #    ["fa-twitter", "#"],
+    #    ["fa-facebook", "#"],
+    #    ["fa-linkedin", "#"]
+    #  ]
 
-    [[params.team.members]]
-      img = ""
-      name = "P3"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+    #[[params.team.members]]
+    #  img = ""
+    #  name = "P3"
+    #  position = "Lead Developer"
+    #  social = [
+    #    ["fa-twitter", "#"],
+    #    ["fa-facebook", "#"],
+    #    ["fa-linkedin", "#"]
+    #  ]
 
   # Client section
     [params.clients_list]
@@ -296,7 +291,7 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Copyright &copy;2018 연구지원단"
+    copyright = "Copyright &copy;2018 StudySupporters"
 
     [[params.footer.social]]
       icon = "fa-github"

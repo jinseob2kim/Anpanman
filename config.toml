@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "http://studysupporters.co.kr/"
 languageCode = "en-us"
-title = "StudySupporters"
+title = "연구지원단 | STudySupporters"
 theme = "hugo-agency-theme"
 
 

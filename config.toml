@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "http://studysupporters.co.kr/"
 languageCode = "en-us"
-title = "연구지원단 | STudySupporters"
+title = "Anpanman - Medical Research Supporters"
 theme = "hugo-agency-theme"
 
 
@@ -18,8 +18,8 @@ googleAnalytics = "UA-122112532-1"
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "STudySupporters (STS)"
-  description = "연구지원단(STudySupporters)은 맞춤형 의학연구 앱을 제공합니다."
+  name = "Anpanman"
+  description = " Medical Research Supporters"
   email = "jinseob2kim@gmail.com"
 
   # Link custom assets relative to /static
@@ -47,7 +47,7 @@ googleAnalytics = "UA-122112532-1"
 
   # Navigation
   [params.navigation]
-    brand = "연구지원단"
+    brand = "Anpanman"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"
@@ -77,16 +77,16 @@ googleAnalytics = "UA-122112532-1"
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome to STudySupporters (STS)"
+    title = "Welcome to Anpanman"
     subtitle = "맞춤형 의학연구 앱을 제공합니다."
-    buttonText = "Tell STS more"
+    buttonText = "Tell Anpanman more"
 
 
   # Services section
   [params.services]
     enable = true
     title = "Services"
-    subtitle = "연구지원단은 맞춤형 의학연구 지원을 통해 의학연구 활성화에 기여하겠습니다."
+    subtitle = "Anpanman은 맞춤형 의학연구 지원을 통해 의학연구 활성화를 이끌겠습니다."
 
 
     [[params.services.row]]
@@ -130,7 +130,7 @@ googleAnalytics = "UA-122112532-1"
   [params.about]
     enable = true
     title = "About"
-    subtitle = "  연구지원단의 발자취입니다."
+    subtitle = "  Anpanman의 발자취입니다."
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
@@ -155,8 +155,8 @@ googleAnalytics = "UA-122112532-1"
     # Possibility to center items
     #center = true
     title = "Our amazing team"
-    subtitle = "연구지원단은 의학연구 지원 전문가들로 이루어져 있습니다."
-    description = "연구지원단은 보건의료 연구를 분업/전문화시켜 연구지원 전문가라는 새로운 직업을 창출하고 이들을 육성/교육할 수 있는 시스템을 구축할 것입니다." 
+    subtitle = "Anpanman은 의학연구 지원 전문가들로 이루어져 있습니다."
+    description = "Anpanman은 보건의료 연구를 분업/전문화시켜 연구지원 전문가라는 새로운 직업을 창출하고 이들을 육성/교육할 수 있는 시스템을 구축할 것입니다." 
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -291,7 +291,7 @@ googleAnalytics = "UA-122112532-1"
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Copyright &copy;2018 StudySupporters"
+    copyright = "Copyright &copy;2018 Anpanman"
 
     [[params.footer.social]]
       icon = "fa-github"

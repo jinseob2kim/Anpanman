@@ -68,7 +68,7 @@ googleAnalytics = "UA-122112532-1"
 
     # postpended links
     [[menu.postpend]]
-      url = "http://studysupporters.co.kr/shiny/"
+      url = "https://shiny.anpanman.co.kr"
       name = "Shiny"
       weight = 10
 

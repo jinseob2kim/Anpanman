@@ -19,7 +19,7 @@ googleAnalytics = "UA-122112532-1"
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "Anpanman"
-  description = " Medical Research Supporters"
+  description = "Medical Research Supporters"
   email = "jinseob2kim@gmail.com"
 
   # Link custom assets relative to /static
@@ -77,7 +77,7 @@ googleAnalytics = "UA-122112532-1"
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome to Anpanman"
+    title = "Medical Research Supporters"
     subtitle = "맞춤형 의학연구 앱을 제공합니다."
     buttonText = "Tell Anpanman more"
 

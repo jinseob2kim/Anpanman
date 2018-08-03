@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://studysupporters.co.kr/"
+baseurl = "https://www.anpanman.co.kr/"
 languageCode = "en-us"
 title = "Anpanman - Medical Research Supporters"
 theme = "hugo-agency-theme"
@@ -8,7 +8,7 @@ theme = "hugo-agency-theme"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-122112532-1"
+googleAnalytics = "UA-122112532-2"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or

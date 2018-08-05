@@ -102,7 +102,7 @@ googleAnalytics = "UA-122112532-2"
     [[params.services.row.list]]
       icon = "fa-comments"
       title = "Consulting"
-      description = "심평원, 보험공단 빅데이터 등 보건의료 데이터 분석에 대한 컨설팅을 제공합니다. 지금까지 의사를 포함한 보건의료 연구자들에게 200회 이상의 통계컨설팅을 제공하였습니다."
+      description = "심평원, 보험공단 빅데이터 등 의료데이터 분석에 대한 컨설팅을 제공합니다."
       url = "#"
 
     [[params.services.row.list]]

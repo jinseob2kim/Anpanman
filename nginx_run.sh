@@ -8,7 +8,7 @@ sudo cp -rp ~/Homepage/Anpanman/public/* /var/www/html
 
 
 ## Restart
-sudo service nginx restart
+#sudo service nginx restart
 
 
 ## var/www/html/index.html

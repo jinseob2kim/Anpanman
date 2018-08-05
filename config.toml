@@ -51,7 +51,7 @@ googleAnalytics = "UA-122112532-2"
   [params.navigation]
     brand = "Anpanman"
     # Optional logo as brand stored in img/
-    logo = "shop_icon_symbol.png"
+    #logo = "logo.svg"
     services = "Services"
     portfolio = "Portfolio"
     about = "About"
@@ -152,7 +152,7 @@ googleAnalytics = "UA-122112532-2"
       
       
     [[params.about.events]]
-      img = "2.jpg"
+      img = "logo.jpg"
       date = "August 2018"
       title = "회사 설립"
       description = "회사를 설립하였습니다."

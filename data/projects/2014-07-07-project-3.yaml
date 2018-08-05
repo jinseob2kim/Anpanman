@@ -1,10 +1,10 @@
 modalID: 3
-title: 통계 교육
-subtitle: Lorem ipsum dolor sit amet consectetur.
-date: 2014-07-07
-img: treehouse.png
-preview: treehouse-preview.png
-client: Start Bootstrap
-clientLink: "#"
-category: Education
-description: Treehouse is a free PSD web template built by [Mathavan Jaya](//www.behance.net/MathavanJaya). This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects. <br><br>You can download the PSD template in this portfolio sample item at [FreebiesXpress.com](freebiesxpress.com/gallery/treehouse-free-psd-web-template/).
+title: 한국 자살사망의 연령, 기간, 코호트 효과 
+subtitle: Age, Period, and Cohort Effects on Suicide Mortality in South Korea, 1992–2015
+date: 2018-07-25
+img: apckorea.png
+preview: apckorea.png
+client: 을지의대 예방의학교실 
+clientLink: "https://medicine.eulji.ac.kr/?menuno=3390"
+category: Article
+description: 을지의대 임지선 교수팀을 도와 새로운 통계 방법론을 이용하여 한국 자살사망의 연령, 기간, 코호트 효과를 구하였습니다. 이 연구는 [International Journal of Environmental Research and Public Health](http://www.mdpi.com/1660-4601/15/8/1580)에 게재되었습니다.

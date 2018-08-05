@@ -94,19 +94,19 @@ googleAnalytics = "UA-122112532-2"
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
+      icon = "fa-chart-bar"
       title = "Applications"
       description = "연구 맞춤형 통계 애플리케이션을 제공합니다. 1~2회의 클릭 또는 터치만으로 내 연구에 꼭 맞는 통계분석을 수행하고 논문/보고서용 테이블과 그림을 바로 다운로드받을 수 있습니다."
       url = "http://studysupporters.co.kr/shiny/"
 
     [[params.services.row.list]]
-      icon = "fa-briefcase"
+      icon = "fa-comments"
       title = "Consulting"
       description = "심평원, 보험공단 빅데이터 등 보건의료 데이터 분석에 대한 컨설팅을 제공합니다. 지금까지 의사를 포함한 보건의료 연구자들에게 200회 이상의 통계컨설팅을 제공하였습니다."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-user-secret"
+      icon = "fa-book-open"
       title = "Education"
       description = "의학통계 교육을 제공합니다."
       url = "https://jinseob2kim.github.io/"

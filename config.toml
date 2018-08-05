@@ -51,7 +51,7 @@ googleAnalytics = "UA-122112532-2"
   [params.navigation]
     brand = "Anpanman"
     # Optional logo as brand stored in img/
-    #logo = "logo.svg"
+    logo = "shop_icon_symbol.png"
     services = "Services"
     portfolio = "Portfolio"
     about = "About"

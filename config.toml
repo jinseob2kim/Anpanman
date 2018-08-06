@@ -71,7 +71,7 @@ googleAnalytics = "UA-122112532-2"
     # postpended links
     [[menu.postpend]]
       url = "https://app.anpanman.co.kr"
-      name = "Shiny"
+      name = "App"
       weight = 10
 
 

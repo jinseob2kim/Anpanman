@@ -103,7 +103,7 @@ googleAnalytics = "UA-122112532-2"
       icon = "fa-comments"
       title = "Consulting"
       description = "심평원, 보험공단 빅데이터 등 의료데이터 분석에 대한 컨설팅을 제공합니다."
-      url = "#"
+      url = "http://pf.kakao.com/_XsuxgC"
 
     [[params.services.row.list]]
       icon = "fa-book"

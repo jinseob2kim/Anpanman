@@ -179,7 +179,8 @@ googleAnalytics = "UA-122112532-2"
       scope = [
         "Software Engineer at [Samsung Electronics](https://www.samsung.com/sec/)",
         "M.P.H & Ph.D Candidate at [SNU G-EPI Lab.](http://snugepi.snu.ac.kr/)",
-        "M.D(preventive medicine specialist) at [SKKU](http://www.skkumed.ac.kr/)"
+        "Preventive medicine residency at [SNU GSPH](http://snu-prev.com/)",
+        "M.D at [SKKU](http://www.skkumed.ac.kr/)"
       ]
       # For bio markdown and even multiline strings are available.
       bio = "의사로서 다양한 건강 데이터를 다뤄본 경험을 바탕으로, 의학연구 활성화를 위한 생태계를 만들고 싶습니다."

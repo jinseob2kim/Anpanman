@@ -81,7 +81,7 @@ googleAnalytics = "UA-122112532-2"
     # the 'static/img' folder.
     title = "Medical Research Supporters"
     subtitle = "맞춤형 의학연구 앱을 제공합니다."
-    buttonText = "Tell Anpanman more"
+    buttonText = "연구지원 신청하기"
 
 
   # Services section

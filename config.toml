@@ -301,7 +301,7 @@ googleAnalytics = "UA-122112532-2"
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Copyright &copy;2018 Anpanman"
+    copyright = "Copyright Anpanman Corp., Ltd. All rights reserved &copy;2018"
 
     [[params.footer.social]]
       icon = "fa-github"
@@ -320,8 +320,8 @@ googleAnalytics = "UA-122112532-2"
 
     [[params.footer.quicklinks]]
       text = "Privacy Policy"
-      link = "#"
+      link = "TermPolicy/PrivacyPolicy.html"
 
     [[params.footer.quicklinks]]
       text = "Terms of Use"
-      link = "/TermOfUse.html"
+      link = "TermPolicy/TermOfUse.html"

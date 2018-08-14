@@ -324,4 +324,4 @@ googleAnalytics = "UA-122112532-2"
 
     [[params.footer.quicklinks]]
       text = "Terms of Use"
-      link = "#"
+      link = "/TermOfUse.html"

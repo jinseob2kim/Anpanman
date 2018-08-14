@@ -301,7 +301,7 @@ googleAnalytics = "UA-122112532-2"
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Copyright Anpanman Corp., Ltd. All rights reserved &copy;2018"
+    copyright = "Copyright Anpanman. All rights reserved &copy;2018"
 
     [[params.footer.social]]
       icon = "fa-github"

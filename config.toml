@@ -20,7 +20,7 @@ googleAnalytics = "UA-122112532-2"
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Anpanman"
+  name = "ANPANMAN"
   description = "Medical Research Supporters"
   email = "jinseob2kim@gmail.com"
 
@@ -301,7 +301,7 @@ googleAnalytics = "UA-122112532-2"
   # Footer section
   [params.footer]
     enable = true
-    copyright = "&copy;2018 Anpanman. All rights reserved."
+    copyright = "&copy;2018 ANPANMAN Co.,Ltd. All rights reserved."
 
     [[params.footer.social]]
       icon = "fa-github"

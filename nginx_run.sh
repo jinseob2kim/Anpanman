@@ -4,7 +4,7 @@ sed -i 's/Message is not sendable due to captcha not loadable. Please contact us
 sed -i 's/href="#services"/href="https:\/\/goo.gl\/forms\/mWfJseksgOSQuYKt1"/' ~/Homepage/Anpanman/public/index.html
 
 ## Copy
-sudo cp -rp ~/Homepage/Anpanman/public/* /var/www/html
+#sudo cp -rp ~/Homepage/Anpanman/public/* /var/www/html
 
 
 

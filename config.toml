@@ -80,7 +80,7 @@ googleAnalytics = "UA-122112532-2"
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "Medical Research Supporters"
-    subtitle = "맞춤형 의학통계 앱을 만들어 드립니다."
+    subtitle = "맞춤형 의학통계 앱을 제공합니다."
     buttonText = "연구지원 신청하기"
 
 

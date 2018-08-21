@@ -102,7 +102,7 @@ googleAnalytics = "UA-122112532-2"
     [[params.services.row.list]]
       icon = "fa-comments"
       title = "Consulting"
-      description = "의료데이터 분석에 대한 컨설팅을 수행합니다. 심평원과 건강보험공단이 개최한 공모전에 선정되어 빅데이터 이용에 대한 맞춤 지원을 받고 있습니다."
+      description = "의료데이터 분석에 대한 컨설팅을 수행합니다. 심평원과 건강보험공단이 개최한 보건의료빅데이터를 활용한 창업아이디어 공모전에 선정되어 빅데이터 이용에 대한 맞춤 지원을 받고 있습니다."
       url = "http://pf.kakao.com/_XsuxgC"
 
     [[params.services.row.list]]

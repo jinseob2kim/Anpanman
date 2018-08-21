@@ -80,7 +80,7 @@ googleAnalytics = "UA-122112532-2"
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "Medical Research Supporters"
-    subtitle = "맞춤형 의학연구 앱을 제공합니다."
+    subtitle = "맞춤형 의학통계 앱을 만들어 드립니다."
     buttonText = "연구지원 신청하기"
 
 
@@ -96,13 +96,13 @@ googleAnalytics = "UA-122112532-2"
     [[params.services.row.list]]
       icon = "fa-area-chart"
       title = "Applications"
-      description = "연구 맞춤형 통계 애플리케이션을 제공합니다. 1~2회의 클릭 또는 터치만으로 내 연구에 꼭 맞는 통계분석을 수행하고 논문/보고서용 테이블과 그림을 바로 다운로드받을 수 있습니다."
+      description = "연구 맞춤형 통계 애플리케이션을 제공합니다. 1~2회의 클릭만으로 내 연구에 꼭 맞는 통계분석을 수행하고 논문용 테이블과 그림을 바로 다운로드받을 수 있습니다."
       url = "https://app.anpanman.co.kr"
 
     [[params.services.row.list]]
       icon = "fa-comments"
       title = "Consulting"
-      description = "심평원, 보험공단 빅데이터 등 의료데이터 분석에 대한 컨설팅을 제공합니다."
+      description = "의료데이터 분석에 대한 컨설팅을 수행합니다. 심평원과 건강보험공단이 개최한 공모전에 선정되어 빅데이터 이용에 대한 맞춤 지원을 받고 있습니다."
       url = "http://pf.kakao.com/_XsuxgC"
 
     [[params.services.row.list]]
@@ -119,7 +119,7 @@ googleAnalytics = "UA-122112532-2"
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Portfolio"
-    subtitle = "그동안 진행했던 지원업무입니다."
+    subtitle = "그동안 도와드렸던 연구입니다."
 
     [params.portfolio.modal]
       client = "Client"
@@ -148,7 +148,7 @@ googleAnalytics = "UA-122112532-2"
       img = "hwellhira.jpg"
       date = "August 2018"
       title = "보건의료빅데이터를 활용한 창업아이디어 공모전 선정"
-      description = "건강보험심사평가원과 건강보험공단이 보건의료 빅데이터의 활용성을 제고하고 창업아이디어 발굴·지원을 통한 민간 일자리 창출을 위해 개최한 2018 창업아이디어 공모전에서 상위 10팀이 진출하는 결선에 진출하였습니다(주제: 맞춤형 의학연구 애플리케이션)."
+      description = "건강보험심사평가원과 건강보험공단이 개최한 2018 보건의료빅데이터를 활용한 창업아이디어 공모전에 선정되어 빅데이터 이용에 대한 맞춤 지원을 받게 되었습니다(주제: 맞춤형 의학연구 애플리케이션). "
       
       
     [[params.about.events]]
@@ -164,8 +164,8 @@ googleAnalytics = "UA-122112532-2"
     # Possibility to center items
     #center = true
     title = "Our amazing team"
-    subtitle = "Anpanman은 의학연구 지원 전문가들로 이루어져 있습니다."
-    description = "Anpanman은 보건의료 연구를 분업/전문화시켜 연구지원 전문가라는 새로운 직업을 창출하고 이들을 육성/교육할 수 있는 시스템을 구축할 것입니다." 
+    subtitle = "Anpanman은 의학연구지원 전문가들로 이루어져 있습니다."
+    description = "Anpanman은 보건의료 연구를 분업/전문화시켜 연구지원 전문가라는 새로운 직업을 창출하고 이들을 육성할 수 있는 시스템을 만들어 나가겠습니다." 
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -183,7 +183,7 @@ googleAnalytics = "UA-122112532-2"
         "M.D at [SKKU](http://www.skkumed.ac.kr/)"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = "의사로서 다양한 건강 데이터를 다뤄본 경험을 바탕으로, 의학연구 활성화를 위한 생태계를 만들고 싶습니다."
+      bio = "의사로서 다양한 건강 데이터를 다뤄본 경험을 바탕으로 의학연구 활성화를 이끌겠습니다."
       social = [
         ["fa-github", "https://github.com/jinseob2kim"],
         ["fa-facebook", "https://www.facebook.com/secondmath"],

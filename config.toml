@@ -310,7 +310,7 @@ googleAnalytics = "UA-122112532-2"
 
     [[params.footer.social]]
       icon = "fa-facebook"
-      link = "https://www.facebook.com/secondmath"
+      link = "https://www.facebook.com/anpanmancorp"
       title = "Facebook"
 
     [[params.footer.social]]

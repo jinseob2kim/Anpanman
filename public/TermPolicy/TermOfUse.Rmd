@@ -1,7 +1,7 @@
 ---
 title: "이용 약관"
 author: "Anpanman Co., Ltd."
-date: "최종 수정: 2018년 8월 14일"
+date: "최종 수정: 2018년 9월 1일"
 output:
   html_document:
     fig_height: 6
@@ -69,7 +69,7 @@ knitr::opts_chunk$set(echo = TRUE)
 4. 사업자등록번호: 624-86-01323
 
 
-5. 연락처: jinseob2kim@gmail.com 
+5. 연락처: jinseob2kim@anpanman.co.kr
 
 
 ### 제 5 조(약관의 명시 및 개정)

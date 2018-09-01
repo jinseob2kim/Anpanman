@@ -1,7 +1,7 @@
 ---
 title: "개인정보처리방침"
 author: "Anpanman Co., Ltd."
-date: "최종 수정: 2018년 8월 14일"
+date: "최종 수정: 2018년 9월 1일"
 output:
   html_document:
     fig_height: 6

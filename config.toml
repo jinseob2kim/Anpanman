@@ -305,7 +305,7 @@ googleAnalytics = "UA-122112532-2"
 
     [[params.footer.social]]
       icon = "fa-github"
-      link = "https://github.com/jinseob2kim"
+      link = "https://github.com/anpanmancorp"
       title = "Github"
 
     [[params.footer.social]]

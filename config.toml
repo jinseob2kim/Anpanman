@@ -309,7 +309,7 @@ googleAnalytics = "UA-122112532-2"
       title = "Github"
 
     [[params.footer.social]]
-      icon = "fa-facebook"
+      icon = "https://avatars2.githubusercontent.com/u/19159748?s=400&v=4"
       link = "https://www.facebook.com/anpanmancorp"
       title = "Facebook"
 

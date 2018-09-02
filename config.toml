@@ -309,13 +309,13 @@ googleAnalytics = "UA-122112532-2"
       title = "Github"
 
     [[params.footer.social]]
-      icon = "https://avatars2.githubusercontent.com/u/19159748?s=400&v=4"
+      icon = "fa-facebook"
       link = "https://www.facebook.com/anpanmancorp"
       title = "Facebook"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      link = "https://www.linkedin.com/in/jinseob-kim-%EA%B9%80%EC%A7%84%EC%84%AD-456550a5/"
+      link = "https://www.linkedin.com/company/anpanman"
       title = "LinkedIn"
 
     [[params.footer.quicklinks]]

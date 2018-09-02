@@ -236,6 +236,10 @@ googleAnalytics = "UA-122112532-2"
       [[params.clients]]
         logo = "hira.jpg"
         link = "http://opendata.hira.or.kr/"
+        
+      [[params.clients]]
+        logo = "http://img.hankyung.com/photo/201711/01.15309302.1.jpg"
+        link = "http://www.samsunghospital.com/home/main/index.do"
 
   # Contact section
   [params.contact]

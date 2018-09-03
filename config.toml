@@ -177,7 +177,7 @@ googleAnalytics = "UA-122112532-2"
       reportsTo = "Founder"
       livesIn = "[Seoul, Korea](https://www.google.co.kr/maps/place/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C/@37.5712302,126.9917377,14z/data=!4m5!3m4!1s0x357ca28b61c565cd:0x858aedb4e4ea83eb!8m2!3d37.566535!4d126.9779692?hl=ko)"
       scope = [
-        "Software Engineer at [Samsung Electronics](https://www.samsung.com/sec/)",
+        "Software Engineer at [Samsung Electronics](http://health.chosun.com/news/dailynews_view.jsp?mn_idx=165897)",
         "M.P.H & Ph.D Candidate at [SNU G-EPI Lab.](http://snugepi.snu.ac.kr/)",
         "Preventive Medicine Residency at [SNU GSPH](http://snu-prev.com/)",
         "M.D at [SKKU](http://www.skkumed.ac.kr/)"

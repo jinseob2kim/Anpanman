@@ -321,6 +321,13 @@ googleAnalytics = "UA-122112532-2"
       icon = "fa-linkedin"
       link = "https://www.linkedin.com/company/anpanman"
       title = "LinkedIn"
+    
+    [[params.footer.social]]
+      icon = "fa-comments"
+      link = "https://pf.kakao.com/_XsuxgC"
+      title = "Kakao Plus Friend"
+
+
 
     [[params.footer.quicklinks]]
       text = "Privacy Policy"

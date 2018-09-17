@@ -165,7 +165,7 @@ googleAnalytics = "UA-122112532-2"
     #center = true
     title = "Our amazing team"
     subtitle = "Anpanman은 의학연구지원 전문가들로 이루어져 있습니다."
-    description = "Anpanman은 보건의료 연구를 분업/전문화시켜 연구지원 전문가라는 새로운 직업을 창출하고 이들을 육성할 수 있는 시스템을 만들어 나가겠습니다." 
+    description = "Anpanman은 보건의료 연구를 분업/전문화시켜 연구지원 전문가라는 새로운 직업을 창출하고 이들이 전문가로 성장할 수 있는 시스템을 만들어 나가겠습니다." 
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
